@@ -1,0 +1,33 @@
+:root {
+  --bg-color: #000000;
+
+  --text-color: #ffffff;
+  --muted-text-color: #c2c2c2;
+
+  --btn-text-color: #323232;
+  --hero-bg-color: #010101;
+  --bg-footer-color: #101012;
+
+  --border-color-of-hero: #2f2e2e;
+  --gradient-color: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+
+  --romance-gradient-bg-color: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
+  --drama-gradient-bg-color: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
+  --historical-gradient-bg-color: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
+  --action-gradient-bg-color: linear-gradient(109.31deg, #fd093f 2.4%, #fb1378 2.41%, #fccb1a 100%);
+  --scifi-gradient-bg-color: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
+  --horror-gradient-bg-color: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+  --comedy-gradient-bg-color: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
+  --documentary-gradient-bg-color: linear-gradient(
+    109.31deg,
+    #1fa2ff 2.4%,
+    #1fa2ff 2.41%,
+    #1f535c 97.46%
+  );
+
+  --color-black: #252525;
+  --color-white: #ffffff;
+
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --time-of-animation: 250ms;
+}

@@ -1,0 +1,23 @@
+.actors__label {
+  @extend %label;
+}
+
+.actors-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.actors-list__item {
+  cursor: pointer;
+}
+
+.actors-list__pic {
+  margin-bottom: 20px;
+}
+
+.actors-list__label {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+}

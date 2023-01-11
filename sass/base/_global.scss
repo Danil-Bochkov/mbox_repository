@@ -1,0 +1,67 @@
+body {
+  font-family: 'Mulish';
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  max-width: 1410px;
+}
+
+section {
+  padding-bottom: 60px;
+
+  & .tv-shows {
+    padding-top: 60px;
+  }
+}
+
+%label {
+  position: relative;
+
+  margin-bottom: 40px;
+  padding-left: 20px;
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.71;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    transform: translateY(-50%) rotate(-90deg);
+    width: 35px;
+    height: 8px;
+    background: var(--gradient-color);
+    border-radius: 50px;
+  }
+}
+
+%btn {
+  border: none;
+  padding: 15px 34px;
+
+  color: var(--text-color);
+  background: var(--gradient-color);
+  box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+  filter: drop-shadow(17px 17px 20px rgba(0, 0, 0, 0.3));
+  border-radius: 100px;
+
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+
+  cursor: pointer;
+  transition: transform var(--time-of-animation) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.1);
+  }
+}

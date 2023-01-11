@@ -1,0 +1,40 @@
+.advertisement {
+  padding-top: 40px;
+}
+
+.advertisement-wrap {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1);
+  background: linear-gradient(87.02deg, #0d1a73 29.67%, #000000 70.52%);
+  padding: 0;
+}
+
+.advertisement__pic-1 {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 50%;
+}
+
+.advertisement-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 50%;
+  & img {
+    width: 294px;
+    height: 148px;
+    margin-bottom: 31px;
+  }
+
+  & span {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 0.31;
+
+    text-transform: capitalize;
+  }
+}

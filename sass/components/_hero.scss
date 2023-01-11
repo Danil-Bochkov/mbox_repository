@@ -1,0 +1,126 @@
+.hero {
+  border-bottom: 1px solid var(--border-color-of-hero);
+  padding: 0;
+}
+
+.hero-container {
+  display: flex;
+
+  & img {
+    position: relative;
+    z-index: 20;
+  }
+}
+
+.hero-wrap {
+  min-width: calc(570px + (720 - 570) * (100vw - 1600px) / (1920 - 1600));
+
+  position: relative;
+  z-index: 200;
+  background-color: var(--hero-bg-color);
+  box-shadow: 100px 0px 100px #000000;
+}
+
+.hero-wrap__header {
+  margin-top: 121px;
+  font-family: 'Marcellus';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 0.875;
+}
+
+.info-wrap {
+  margin-top: 48px;
+  margin-bottom: 32px;
+
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 0.625;
+}
+
+.info-wrap__item {
+  margin-right: 18px;
+  &_age {
+    position: relative;
+    background: var(--bg-color);
+    border: 2px solid transparent;
+    border-radius: 50px;
+
+    line-height: 0.75;
+
+    padding: 6px 15px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -4px;
+      bottom: -4px;
+      left: -4px;
+      right: -4px;
+      z-index: -1;
+      border-radius: 50px;
+      background: var(--gradient-color);
+    }
+  }
+
+  &_rating {
+    position: relative;
+    margin-right: 0;
+    margin-left: 22px;
+
+    &::after {
+      content: url(../images/icons/star-icon.svg);
+      position: absolute;
+      top: 50%;
+      right: -25px;
+      transform: translateY(-50%);
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
+
+.hero-wrap__descr {
+  max-width: 507px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--muted-text-color);
+}
+
+.hero-btns {
+  margin-top: 35px;
+  display: flex;
+  gap: 30px;
+}
+
+.hero-btns__play-btn {
+  @extend %btn;
+  display: flex;
+  align-items: center;
+  & img {
+    margin-right: 15px;
+    width: 14px;
+    height: 18px;
+  }
+}
+
+.hero-btns__info-btn {
+  border: none;
+  padding: 15px 30px;
+  color: var(--btn-text-color);
+  background-color: var(--color-white);
+  border-radius: 100px;
+
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+
+  cursor: pointer;
+  filter: drop-shadow(17px 17px 20px rgba(0, 0, 0, 0.3));
+  transition: transform var(--time-of-animation) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.02);
+  }
+}

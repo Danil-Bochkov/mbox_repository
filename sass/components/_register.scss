@@ -1,0 +1,48 @@
+.register {
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+.register-container {
+  padding: 0;
+  width: 1224px;
+  height: 270px;
+  border-radius: 20px;
+
+  background-image: url(../images/pics/banner-pic.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url(../images/pics/banner-pic@2x.jpg);
+  }
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-wrap {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+
+  background: linear-gradient(336.56deg, #000000 58.12%, #ffffff 124.09%);
+  opacity: 0.5;
+  backdrop-filter: blur(25px);
+}
+
+.register__label {
+  margin-right: 82px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1;
+  z-index: 300;
+}
+
+.register__btn {
+  @extend %btn;
+  padding: 15px 18px;
+}

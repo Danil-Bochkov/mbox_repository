@@ -1,0 +1,72 @@
+.genres__label {
+  @extend %label;
+}
+
+.genres-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 27px;
+}
+
+.genres-list__item {
+  border-radius: 20px;
+  &:nth-child(1) {
+    background: var(--romance-gradient-bg-color);
+  }
+  &:nth-child(2) {
+    background: var(--drama-gradient-bg-color);
+  }
+  &:nth-child(3) {
+    background: var(--historical-gradient-bg-color);
+  }
+  &:nth-child(4) {
+    background: var(--action-gradient-bg-color);
+  }
+  &:nth-child(5) {
+    background: var(--scifi-gradient-bg-color);
+  }
+  &:nth-child(6) {
+    background: var(--horror-gradient-bg-color);
+  }
+  &:nth-child(7) {
+    background: var(--comedy-gradient-bg-color);
+  }
+  &:nth-child(8) {
+    background: var(--documentary-gradient-bg-color);
+  }
+
+  transition: transform var(--time-of-animation) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
+}
+
+.genres-list__link {
+  max-width: 340px;
+  height: 198px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.genres-list__icon {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+
+  &-rocket {
+    transform: rotate(46.5deg);
+  }
+}
+
+.genres-list__label {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.71;
+
+  text-align: center;
+}

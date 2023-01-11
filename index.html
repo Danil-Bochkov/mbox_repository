@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M-box</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header container">
+        <a href="/" class="logo">
+          <img class="logo__icon" src="./images/icons/Logo.svg" alt="logo" />
+        </a>
+        <nav>
+          <ul class="nav-list">
+            <li class="nav-list__item">
+              <a class="nav-list__link nav-list__link--active" href="">Home</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="">TV Shows</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="">Movies</a>
+            </li>
+            <li class="nav-list__item">
+              <a class="nav-list__link" href="">Series</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="profile-nav">
+          <ul class="profile-nav-list">
+            <li class="profile-nav-list__item">
+              <a class="profile-nav-list__link" href="">
+                <img
+                  src="./images/icons/search-icon.svg"
+                  alt="Search Icon"
+                  class="profile-nav-list__icon"
+                />
+              </a>
+            </li>
+            <li class="profile-nav-list__item">
+              <a class="profile-nav-list__link" href="">
+                <img
+                  src="./images/icons/notify-icon.svg"
+                  alt="Notifications Icon"
+                  class="profile-nav-list__icon"
+                />
+              </a>
+            </li>
+            <li class="profile-nav-list__item">
+              <a class="profile-nav-list__link" href="">
+                <img
+                  src="./images/icons/profile-icon.svg"
+                  alt="Profile Icon"
+                  class="profile-nav-list__icon"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-container container">
+          <div class="hero-wrap">
+            <div class="hero-info-wrap">
+              <h1 class="hero-wrap__header">
+                Zack Snyder's <br />
+                Justice League
+              </h1>
+              <div class="info-wrap">
+                <span class="info-wrap__item">2021</span>
+                <span class="info-wrap__item info-wrap__item_age">18+</span>
+                <span class="info-wrap__item">4h 2min</span>
+                <span class="info-wrap__item info-wrap__item_rating">8.8</span>
+              </div>
+              <p class="hero-wrap__descr">
+                Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne
+                aligns forces with Diana Prince with plans to recruit a team of metahumans to
+                protect the world from an approaching threat of catastrophic proportions.
+              </p>
+              <div class="hero-btns">
+                <button class="hero-btns__play-btn">
+                  <img src="./images/icons/play-icon.svg" alt="Play Icon" />
+                  Watch
+                </button>
+                <button class="hero-btns__info-btn">More information</button>
+              </div>
+            </div>
+          </div>
+          <img
+            srcset="./images/pics/hero-pic.jpg 1x, ./images/pics/hero-pic@2x.jpg 2x"
+            src="./images/pics/hero-pic.jpg"
+            alt="Film Picture"
+          />
+        </div>
+      </section>
+      <section>
+        <div class="tv-shows container">
+          <h2 class="tv-shows__label">
+            <a class="tv-shows__label-link" href="">Trending TV Shows</a>
+          </h2>
+
+          <ul class="tv-shows-list">
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-1-pic.png    1x,
+                    ./images/pics/tv-shows/show-1-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-1-pic.png"
+                  alt="Tv Show 1 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-2-pic.png    1x,
+                    ./images/pics/tv-shows/show-2-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-2-pic.png"
+                  alt="Tv Show 2 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-3-pic.png    1x,
+                    ./images/pics/tv-shows/show-3-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-3-pic.png"
+                  alt="Tv Show 3 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-4-pic.png    1x,
+                    ./images/pics/tv-shows/show-4-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-4-pic.png"
+                  alt="Tv Show 4 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-5-pic.png    1x,
+                    ./images/pics/tv-shows/show-5-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-5-pic.png"
+                  alt="Tv Show 5 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+            <li class="tv-shows-list__item">
+              <a href="" class="tv-shows-list__link">
+                <img
+                  srcset="
+                    ./images/pics/tv-shows/show-6-pic.png    1x,
+                    ./images/pics/tv-shows/show-6-pic@2x.png 2x
+                  "
+                  src="./images/pics/tv-shows/show-6-pic.png"
+                  alt="Tv Show 6 Picture"
+                  class="tv-shows-list__pic"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="movies container">
+          <h2 class="movies__label">
+            <a class="movies__label-link" href="">Trending Movies</a>
+          </h2>
+
+          <ul class="movies-list">
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-1-pic.png    1x,
+                    ./images/pics/movies/movie-1-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-1-pic.png"
+                  alt="Movie 1 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-2-pic.png    1x,
+                    ./images/pics/movies/movie-2-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-2-pic.png"
+                  alt="Movie 2 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-3-pic.png    1x,
+                    ./images/pics/movies/movie-3-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-3-pic.png"
+                  alt="Movie 3 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-4-pic.png    1x,
+                    ./images/pics/movies/movie-4-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-4-pic.png"
+                  alt="Movie 4 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-5-pic.png    1x,
+                    ./images/pics/movies/movie-5-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-5-pic.png"
+                  alt="Movie 5 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+            <li class="movies-list__item">
+              <a href="" class="movies-list__link">
+                <img
+                  srcset="
+                    ./images/pics/movies/movie-6-pic.png    1x,
+                    ./images/pics/movies/movie-6-pic@2x.png 2x
+                  "
+                  src="./images/pics/movies/movie-6-pic.png"
+                  alt="Movie 6 Picture"
+                  class="movies-list__pic"
+                />
+              </a>
+            </li>
+          </ul>
+
+          <button class="movies__btn">See more</button>
+        </div>
+      </section>
+      <section>
+        <div class="genres container">
+          <h2 class="genres__label">
+            <a class="genres__label-link" href="">Popular Genres</a>
+          </h2>
+
+          <ul class="genres-list">
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-1-icon.svg"
+                  alt="Romance Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Romance</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-2-icon.svg"
+                  alt="Drama Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Drama</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-3-icon.svg"
+                  alt="Historical Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Historical</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-4-icon.svg"
+                  alt="Action Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Action</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-5-icon.svg"
+                  alt="Sci-fi Icon"
+                  class="genres-list__icon genres-list__icon-rocket"
+                />
+                <span class="genres-list__label">Sci-fi</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-6-icon.svg"
+                  alt="Horror Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Horror</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img
+                  src="./images/icons/genre-7-icon.svg"
+                  alt="Comedy Icon"
+                  class="genres-list__icon"
+                />
+                <span class="genres-list__label">Comedy</span>
+              </a>
+            </li>
+            <li class="genres-list__item">
+              <a href="" class="genres-list__link">
+                <img src="./images/icons/genre-8-icon.svg" alt="" class="genres-list__icon" />
+                <span class="genres-list__label">Documentary</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section>
+        <div class="actors container">
+          <h2 class="actors__label">
+            <a class="actors__label-link" href="">Popular Actors & Directors</a>
+          </h2>
+
+          <ul class="actors-list">
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-1-pic.png    1x,
+                  ./images/pics/actors/actor-1-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-1-pic.png"
+                alt="Person 1"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">Samantha Bowen</span>
+            </li>
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-2-pic.png    1x,
+                  ./images/pics/actors/actor-2-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-2-pic.png"
+                alt="Person 2"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">Rhys Birch</span>
+            </li>
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-3-pic.png    1x,
+                  ./images/pics/actors/actor-3-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-3-pic.png"
+                alt="Person 3"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">James Holloway</span>
+            </li>
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-4-pic.png    1x,
+                  ./images/pics/actors/actor-4-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-4-pic.png"
+                alt="Person 4"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">Joshua Walton</span>
+            </li>
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-5-pic.png    1x,
+                  ./images/pics/actors/actor-5-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-5-pic.png"
+                alt="Person 5"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">Patrick Elliott</span>
+            </li>
+            <li class="actors-list__item">
+              <img
+                srcset="
+                  ./images/pics/actors/actor-6-pic.png    1x,
+                  ./images/pics/actors/actor-6-pic@2x.png 2x
+                "
+                src="./images/pics/actors/actor-6-pic.png"
+                alt="Person 6"
+                class="actors-list__pic"
+              />
+              <span class="actors-list__label">Morgan O'Neill</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="advertisement">
+        <div class="advertisement-wrap container">
+          <img
+            class="advertisement__pic-1"
+            srcset="./images/pics/big-buck-pic.png 1x, ./images/pics/big-buck-pic@2x.png 2x"
+            src="./images/pics/big-buck-pic.png"
+            alt="Film Picture"
+          />
+          <div class="advertisement-field">
+            <img
+              srcset="./images/pics/2021-pic.png 1x, ./images/pics/2021-pic@2x.png 2x"
+              src="./images/pics/2021-pic.png"
+              alt="Coming Soon Picture"
+            />
+            <span>Coming Soon...</span>
+          </div>
+        </div>
+      </section>
+      <section class="register">
+        <div class="register-container container">
+          <div class="register-wrap"></div>
+          <h2 class="register__label">
+            Are You New Here ?<br />
+            Don’t wait, Register Now.
+          </h2>
+          <button class="register__btn">Register Now</button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrap container">
+        <a href="/" class="logo">
+          <img class="logo__icon" src="./images/icons/Logo.svg" alt="logo" />
+        </a>
+        <div class="useful-links">
+          <div class="useful-links-wrap">
+            <ul class="useful-links-list">
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Voice over and Subtitle</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Media Center</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Privacy</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="useful-links-wrap">
+            <ul class="useful-links-list">
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Voice Description</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Investor Relations</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Legal Provisions</a>
+              </li>
+            </ul>
+          </div>
+          <div class="useful-links-wrap">
+            <ul class="useful-links-list">
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Help Center</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Job Opportunities</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Cookies Preferences</a>
+              </li>
+            </ul>
+          </div>
+          <div class="useful-links-wrap">
+            <ul class="useful-links-list">
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Gift Cards</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Terms of Use</a>
+              </li>
+              <li class="useful-links-list__item">
+                <a href="" class="useful-links-list__link">Corporate Informations</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

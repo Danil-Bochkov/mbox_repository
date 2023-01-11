@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--bg-footer-color);
+}
+
+.footer-wrap {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.useful-links {
+  display: flex;
+  gap: 52px;
+}
+
+.useful-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.useful-links-list__link {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.1;
+
+  color: var(--muted-text-color);
+
+  transition: color var(--time-of-animation) var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--text-color);
+  }
+}
